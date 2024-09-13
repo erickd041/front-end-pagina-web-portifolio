@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Site</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+            <img src="perfil.png" alt="Perfil" class="logo">
+        </header>
+        
+    </header>
+    <nav>
+        <ul>
+            <li><a href="?">Início</a></li>
+            <li><a href="?">Portfólio</a></li>
+            <li><a href="?">Contato</a></li>
+        </ul>
+    </nav>
+    <article>
+        <h2>Bem-vindo ao meu site</h2>
+        <p>Este é o meu primeiro site criado com HTML e CSS. Aqui você encontrará informações sobre mim e minhas habilidades.</p>
+        <p>Fique à vontade para explorar e descobrir mais sobre o meu trabalho e interesses.</p>
+        <ul>
+            <li>Desenvolvimento Web</li>
+            <li>Design Gráfico</li>
+            <li>Marketing Digital</li>
+        </ul>
+    </article>
+    <footer>
+        
+        
+    <p> No copy &copy; <span id="ano"></span>  </p> 
+    </footer>
+    <script>
+    
+        document.getElementById('ano').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
